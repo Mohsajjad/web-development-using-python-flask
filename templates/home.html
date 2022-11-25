@@ -14,6 +14,7 @@
     </style>
   </head>
   <body>
+    {%  include 'navbar.html' %}
     <div class='container'>
       <h1 class = 'text-center mt-2 mb-4'>{{company_name}} Careers</h1>
       <img class='img-fluid' id='banner' src='http://web-development-using-python-flask.nightraven786.repl.co/static/banner.jpg' height='200' width='700'>
@@ -30,8 +31,9 @@
       </p>
       <div class = 'text-center'>
         <button class = 'btn btn-primary btn-lg mt-5 mb-2'>Mode of Contact</button>
-        <p>Copyright 2022, Resume</p>
+        
       </div>
     </div>
+    {% include 'footer.html' %}
   </body>
 </html>
